@@ -1,0 +1,120 @@
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+body{
+	background-image: url(images/autumn053.gif);
+}
+body.image2{
+	background-image: url(images/winter061.gif);
+}
+a{
+	text-decoration: none;
+	color: #6633FF;
+}
+a.on{
+	color: #000000;
+}
+a:hover{
+	color: #330066;
+}
+
+/* ----------------------div index et div page ------------- */
+
+#index{
+	width: 800px;
+	min-height: 620px;
+	background-color: #fff;
+	margin: 100px auto;
+}
+#page{
+	width: 800px;
+	min-height: 620px;
+	background-color: #fff;
+	margin: 100px auto;
+}
+
+/* ---------------------- header ------------- */
+
+#header{
+	width: 800px;
+	height: 150px;
+	padding-top: 20px;
+}
+#header a{
+	display: block;
+	background-color: #00FFFF;
+	background-image: url(images/bridge_logo.png);
+	background-repeat: no-repeat;
+	margin-left: 628px;
+	width: 150px;
+	height: 144px;
+	text-indent: -2000px;
+	overflow: hidden;
+}
+
+/* ---------------------- navigation ------------- */
+
+li{
+	font-size: 15px;
+}
+
+/* ---------------------- nav1 menu horizontal ------------- */
+
+#nav1{
+	list-style: none;
+	margin: 20px;
+	text-align: center;
+	border-bottom: 1px dotted #000;
+	border-top: 1px dotted #000;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+#nav1 li{
+	display: inline;
+	padding: 30px;
+}
+
+/* ---------------------- nav_vertical ------------- */
+#nav_vertical{
+	width: 200px;
+	float: left;
+}
+
+/* ---------------------- nav2 / nav3 ------------- */
+
+#nav2 li, #nav3 li{
+	margin: 10px;
+}
+#nav2, #nav3{
+	border: 1px dotted #000;
+	background-color: #e0dbea;
+	list-style: none;
+	margin: 20px;
+	width: 148px;
+	padding: 5px;
+}
+
+/* ------------------------------ col_r --------------------- */
+#col_r{
+	width: 570px;
+	min-height: 286px;
+	float: left;
+	border: 1px dotted #000;
+	margin-left: 8px;
+	margin-top: 20px;
+}
+#col_r p{
+	font-size: 12px;
+	margin: 20px;
+	text-align: justify;
+}
+#col_r h4{
+	font-size: 12px;
+	margin: 20px;
+}
+#col_r.sans_menu{
+	margin-left: 208px;
+}
